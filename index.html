@@ -181,7 +181,7 @@
         </div>
         <div class="row justify-content-lg-center">
             <div class="col-md-6">
-                <form name="submit-to-google-sheet">
+                <form name='user-message'>
                     <div class="mb-3">
                         <label for="name" class="form-label">Full Name</label>
                         <input type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp">
@@ -236,8 +236,8 @@
 
 
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwrUTGAjUZH4_Vk93BamNMDv8iDR-0SNcuwaLV4cBldJBoAab-GG_Hib66bRy65f5kv/exec'
-        const form = document.forms['submit-to-google-sheet']
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwrUTGAjUZH4_Vk93BamNMDv8iDR-0SNcuwaLV4cBldJBoAab-GG_Hib66bRy65f5kv/exec';
+        const form = document.forms['user-message']
 
         form.addEventListener('submit', e => {
             e.preventDefault()
